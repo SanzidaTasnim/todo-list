@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+.wrap {
+   display: flex;
+   justify-content: center;
+}
+.main-wrap {
+   width: 510px;
+   background-color: #ddd;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.main-head {
+   background: #3498db;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+.main-input {
+   padding: 30px;
+}
+.main-input input {
+   width: 300px;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   outline: none;
+   margin-right: 10px;
+}
+.main-input input:focus {
+   border-color: #3498db;
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.main-input input:placeholder {
+   color: #999;
+}
+.main-input button {
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color: #3498db;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.main-input button:hover {
+   background-color: #0056b3;
+}
+.main-input span {
+   margin-left: 5px;
+}
+.showitem-wrap , .footer {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.show-items {
+   width: 490px;
+   background-color: #ddd;
+   color: #333;
+   margin-top: 20px;
+   border-radius: 5px;
+   padding: 12px;
+   display: flex;
+   justify-content: space-between;
+}
+.show-items h2 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+}
+.showitems-icon {
+	width: 90px;
+	display: flex;
+	justify-content: space-around;
+}
+a.delete {
+   color: #dc3545;
+   font-size: 20px;
+}
+a.edit {
+   font-size: 20px;
+   color: #3498db;
+}
+a.check {
+   font-size: 20px;
+   color: #999;
+}
+a.completed {
+   color: #008000;
+}
+.foot-wrap {
+   width: 490px;
+   color: #333;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Roboto', sans-serif;
+}
+.foot-wrap button {
+   padding: 7px 20px;
+   font-size: 16px;
+   background-color: #dc3545;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transform: translateY(-10px);
+}
+.completed-linethrough {
+   text-decoration: line-through;
+}
